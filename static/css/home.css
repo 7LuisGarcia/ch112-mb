@@ -1,0 +1,16 @@
+.photos { 
+    display: flex;
+    padding: 10px 8 px;
+    justify-content: space-between;
+}
+
+.page-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 40px;
+    color: gray;
+}

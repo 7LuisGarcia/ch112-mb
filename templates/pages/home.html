@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Home{% endblock %}
+ 
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/about.css' %}"></link>
+ <style>
+        .main-title {
+            text-align: center;
+            font-size: 36px;
+        }
+
+        .info-box {
+            padding: 15px;
+            border-radius: 10px;
+            width: 60%;
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+{% endblock css %} 
+
+{% block content %}
+<h1 style="background-color:darksalmon; letter-spacing: 5px;">About page using Jinja </h1>
+    <div>
+       <img src="https://picsum.photos/536/354" alt="img2.jpg">
+       <img src="https://picsum.photos/seed/picsum/536/354" alt="img1.jpg">
+    </div>
+
+<h1>Home Page</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, iure culpa corporis sit alias asperiores provident reprehenderit dolores vel neque cumque magni excepturi porro illo consectetur inventore non assumenda hic!</p>
+{% endblock %}
+
